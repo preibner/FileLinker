@@ -19,5 +19,18 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+FileLinker.iml
+codeStyles/
+libraries/
+markdown-navigator-enh.xml
+markdown-navigator.xml
+misc.xml
+modules.xml
+vcs.xml
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
