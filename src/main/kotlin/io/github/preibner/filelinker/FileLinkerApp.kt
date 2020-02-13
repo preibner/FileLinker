@@ -3,7 +3,14 @@
  */
 package io.github.preibner.filelinker
 
+import javafx.stage.Stage
 import tornadofx.*
 
 
-class FileLinkerApp: App(MainView::class, Style::class)
+class FileLinkerApp: App(MainView::class){
+    override fun start(stage: Stage) {
+        stage.minHeight = 200.0
+        stage.minWidth = 400.0
+        super.start(stage)
+    }
+}
